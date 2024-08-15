@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Fetch..
+Icon=~/.local/share/applications/archie.png
+Terminal=false
+Exec=OpenApps --fetch
+#Exec=termite --hold -e zfetch
