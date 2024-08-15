@@ -134,7 +134,7 @@ fi
 
 logo "Downloading dotfiles"
 
-repo_url="https://github.com/thegfmthgs/dotfiles"
+repo_url="https://github.com/archie796/ars_cin/tree/main/dotfiles"
 repo_dir="$HOME/dotfiles"
 
 # Verifies if the folder of the repository exists, and if it does, deletes it
