@@ -136,7 +136,7 @@ logo "Downloading dotfiles"
 
 repo_url="https://github.com/archie796/ars_cin/tree/main/dotfiles"
 repo_dir="$HOME/dotfiles"
-
+repo_source="$HOME/dotfiles/dotfiles"
 # Verifies if the folder of the repository exists, and if it does, deletes it
 if [ -d "$repo_dir" ]; then
     printf "Removing existing dotfiles repository\n"
@@ -146,6 +146,7 @@ fi
 # Clone the repository
 printf "Cloning dotfiles from %s\n" "$repo_url"
 git clone --depth=1 "$repo_url" "$repo_dir"
+cp -p "$repo_source" $HOME
 sleep 2
 clear
 
